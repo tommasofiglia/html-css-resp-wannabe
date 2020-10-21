@@ -90,11 +90,11 @@ img {
   }
 
   /* BLOCCO LEZIONI */
+
   #lezioni h1{
     background-color: rgb(242,242,205);
     margin: auto;
     padding: 10px 0;
-    font-size: 25px;
   }
 
   #lezioni .row>.left,
@@ -162,8 +162,10 @@ img {
   h1{
     padding: 10px 0;
     margin: 0;
-    font-size: 25px;
-
+    font-size: 23px;
   }
 
+ .row{
+   font-size: 13px;
+ }
 }
