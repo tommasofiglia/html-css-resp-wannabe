@@ -84,15 +84,18 @@ img {
   }
 
   .row {
-    width: 100%;
+    width: 95%;
     padding-top: 0;
     margin-top: 0;
   }
 
   /* BLOCCO LEZIONI */
 
-  #lezioni h1{
+  #lezioni{
     background-color: rgb(242,242,205);
+  }
+
+  #lezioni h1{
     margin: auto;
     padding: 10px 0;
   }
@@ -101,7 +104,6 @@ img {
   #lezioni .row>.right {
     width: 100%;
     float: none;
-    background-color: rgb(242,242,205);
     padding-bottom: 15px;
   }
 
@@ -114,13 +116,8 @@ img {
     padding-bottom: 15px;
   }
 
-  #steps {
-    text-align: center;
-  }
-
   /* BLOCCO PERCHE */
   #why {
-    text-align: center;
     background-color: rgb(242,242,205);
   }
 
@@ -166,6 +163,8 @@ img {
   }
 
  .row{
-   font-size: 13px;
+   font-size: 12px;
  }
 }
+
+/* Fine del Mediaquery per sito responsive */
