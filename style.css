@@ -73,10 +73,6 @@ img {
 }
 
 
-
-
-
-
 /* MediaQuery per sito responsive  */
 
 @media screen and (max-width:420px) {
@@ -94,27 +90,19 @@ img {
   }
 
   /* BLOCCO LEZIONI */
+  #lezioni h1{
+    background-color: rgb(242,242,205);
+    margin: auto;
+    padding: 10px 0;
+    font-size: 25px;
+  }
+
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
     float: none;
     background-color: rgb(242,242,205);
-  }
-
-  #lezioni .row img {
-    /* per centrare orizzontalmente */
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #lezioni {
-    text-align: center;
-  }
-
-  #lezioni h1{
-    background-color: rgb(242,242,205);
-    margin: 0 auto;
+    padding-bottom: 15px;
   }
 
   /* BLOCCO STEPS */
@@ -139,13 +127,14 @@ img {
   #why .row>.second,
   #why .row>.third {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 10px;
   }
 
   #why .row img {
     background-color: #428bca;
     border-radius: 50%;
     padding: 30px;
+    height: 40px;
   }
 
   /* COMMON */
@@ -155,12 +144,19 @@ img {
   }
 
   img {
-    height: 200px;
+    height: 100px;
   }
 
-  .clear {
-    clear: both;
+  h3{
+    margin: 0 auto;
+    font-size: 15px;
   }
 
+  h1{
+    padding: 10px 0;
+    margin: 0;
+    font-size: 25px;
+
+  }
 
 }
